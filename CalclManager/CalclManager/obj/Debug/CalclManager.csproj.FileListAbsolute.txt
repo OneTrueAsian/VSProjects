@@ -1,0 +1,11 @@
+D:\VS Projects\VSProjects\CalclManager\CalclManager\bin\Debug\CalclManager.exe.config
+D:\VS Projects\VSProjects\CalclManager\CalclManager\bin\Debug\CalclManager.exe
+D:\VS Projects\VSProjects\CalclManager\CalclManager\bin\Debug\CalclManager.pdb
+D:\VS Projects\VSProjects\CalclManager\CalclManager\obj\Debug\CalclManager.csprojAssemblyReference.cache
+D:\VS Projects\VSProjects\CalclManager\CalclManager\obj\Debug\CalclManager.Form1.resources
+D:\VS Projects\VSProjects\CalclManager\CalclManager\obj\Debug\CalclManager.Properties.Resources.resources
+D:\VS Projects\VSProjects\CalclManager\CalclManager\obj\Debug\CalclManager.csproj.GenerateResource.cache
+D:\VS Projects\VSProjects\CalclManager\CalclManager\obj\Debug\CalclManager.csproj.CoreCompileInputs.cache
+D:\VS Projects\VSProjects\CalclManager\CalclManager\obj\Debug\CalclManager.exe
+D:\VS Projects\VSProjects\CalclManager\CalclManager\obj\Debug\CalclManager.pdb
+D:\VS Projects\VSProjects\CalclManager\CalclManager\obj\Debug\CalclManager.ContributionFrom.resources
