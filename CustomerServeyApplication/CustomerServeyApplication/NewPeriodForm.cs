@@ -15,6 +15,15 @@ namespace CustomerServeyApplication
         public NewPeriodForm()
         {
             InitializeComponent();
+            CenterToScreen();
+        }
+
+        private void SubmitFolder_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            CustomerEntryForm cForm = new CustomerEntryForm();
+            cForm.ShowDialog();
+            this.Close();
         }
     }
 }

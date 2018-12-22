@@ -49,6 +49,7 @@
             this.qFourCom = new System.Windows.Forms.TextBox();
             this.qFiveCom = new System.Windows.Forms.TextBox();
             this.FinishButton = new System.Windows.Forms.Button();
+            this.AddButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // qOne
@@ -229,12 +230,24 @@
             this.FinishButton.TabIndex = 20;
             this.FinishButton.Text = "Finish";
             this.FinishButton.UseVisualStyleBackColor = true;
+            this.FinishButton.Click += new System.EventHandler(this.FinishButton_Click);
+            // 
+            // AddButton
+            // 
+            this.AddButton.Location = new System.Drawing.Point(410, 406);
+            this.AddButton.Name = "AddButton";
+            this.AddButton.Size = new System.Drawing.Size(85, 32);
+            this.AddButton.TabIndex = 21;
+            this.AddButton.Text = "Add Another";
+            this.AddButton.UseVisualStyleBackColor = true;
+            this.AddButton.Click += new System.EventHandler(this.AddButton_Click);
             // 
             // QuestionForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(652, 450);
+            this.Controls.Add(this.AddButton);
             this.Controls.Add(this.FinishButton);
             this.Controls.Add(this.qFiveCom);
             this.Controls.Add(this.qFourCom);
@@ -286,5 +299,6 @@
         private System.Windows.Forms.TextBox qFourCom;
         private System.Windows.Forms.TextBox qFiveCom;
         private System.Windows.Forms.Button FinishButton;
+        private System.Windows.Forms.Button AddButton;
     }
 }

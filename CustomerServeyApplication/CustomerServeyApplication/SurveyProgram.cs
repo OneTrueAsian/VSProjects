@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace CustomerServeyApplication
 {
-    static class Program
+    static class SurveyProgram
     {
         /// <summary>
         /// The main entry point for the application.
@@ -16,7 +16,7 @@ namespace CustomerServeyApplication
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new QSelectForm());
+            Application.Run(new SelectPeriod());
         }
     }
 }

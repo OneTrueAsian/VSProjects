@@ -93,8 +93,9 @@
             this.NextButton.TabIndex = 6;
             this.NextButton.Text = "Next";
             this.NextButton.UseVisualStyleBackColor = true;
+            this.NextButton.Click += new System.EventHandler(this.NextButton_Click);
             // 
-            // CustomerEntry
+            // CustomerEntryForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -106,7 +107,7 @@
             this.Controls.Add(this.RLabel);
             this.Controls.Add(this.LocLabel);
             this.Controls.Add(this.CLabel);
-            this.Name = "CustomerEntry";
+            this.Name = "CustomerEntryForm";
             this.Text = "Name Form";
             this.ResumeLayout(false);
             this.PerformLayout();

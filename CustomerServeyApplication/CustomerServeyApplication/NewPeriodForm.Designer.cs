@@ -75,8 +75,9 @@
             this.SubmitFolder.TabIndex = 4;
             this.SubmitFolder.Text = "Submit";
             this.SubmitFolder.UseVisualStyleBackColor = true;
+            this.SubmitFolder.Click += new System.EventHandler(this.SubmitFolder_Click);
             // 
-            // NewPeriod
+            // NewPeriodForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -86,7 +87,7 @@
             this.Controls.Add(this.PEntryBox);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.PeriodEntry);
-            this.Name = "NewPeriod";
+            this.Name = "NewPeriodForm";
             this.Text = "New Period Form";
             this.ResumeLayout(false);
             this.PerformLayout();
