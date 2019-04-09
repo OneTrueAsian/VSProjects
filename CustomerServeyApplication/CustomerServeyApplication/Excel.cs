@@ -55,6 +55,16 @@ namespace CustomerServeyApplication
             wb.Save();
         }
 
+        public void NextEmptyCell()
+        {
+            var col = ws.UsedRange.Columns["C:C", Type.Missing];
+
+            foreach (Excel.Range item in col.Cells)
+            {
+
+            }
+        }
+
         // Saves as new xlsx file
         public void SaveAs(string path)
         {
